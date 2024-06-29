@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %}Contacts{% endblock %}
+
+{% block content %}
+<h1>Contact Us</h1>
+<p>If you have any questions, feel free to reach out to us!</p>
+
+<h2>Camarillo State Mental Hospital</h2>
+<p>1 University Dr. Camarillo, CA 93012</p>
+<img src="{{ url_for('static', filename='images/Camarillo_1.jpg') }}" alt="Camarillo State Mental Hospital" class="img-fluid">
+{% endblock %}

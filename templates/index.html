@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block title %}Home Page{% endblock %}
+
+{% block content %}
+<h1>Welcome to the "Hotel California"</h1>
+<p>This is the main page of the website.</p>
+<img src="{{ url_for('static', filename='images/Camarillo_1.jpg') }}" alt="Camarillo State Mental Hospital" class="img-fluid">
+{% endblock %}
